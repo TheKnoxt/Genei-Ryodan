@@ -1,0 +1,138 @@
+body
+    {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    }
+
+  .container
+    {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+  .logo 
+    {
+    display: flex;
+    align-items:center;
+    }
+
+  .logo img
+    {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    }
+
+  .nav 
+    {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+  .nav a 
+    {
+    color: #666666;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+    }
+
+  .nav a:hover 
+    {
+    color: #5a008f;
+    }
+
+  main 
+    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    }
+
+  .content 
+    {
+    max-width: 50%;
+    }
+
+  .content h1 
+    {
+    font-size: 3rem;
+    color: #000000;
+    }
+
+  .content h1 span 
+    {
+    color: #5a008f;
+    }
+
+  .content p 
+    {
+    font-size: 1rem;
+    color: #a8a8a8;
+    line-height: 1.5;
+    margin-top: 20px;
+    }
+
+  .form-group 
+    {
+    margin-top: 20px;
+    }
+
+  .form-group input 
+    {
+    padding: 15px;
+    width: calc(100% - 30px);
+    margin-bottom: 15px;
+    border: 2px solid #333;
+    border-radius: 30px;
+    background: #2e2e3a;
+    color: #fff;
+    }
+
+  .form-group button 
+    {
+    background: #666;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    }
+
+  .form-group button:hover 
+    {
+    background: #5a008f;
+    }
+
+  .image-container 
+    {
+    max-width: 40%;
+    position: relative;
+    }
+
+  .image-container img
+    {
+    max-width: 100%;
+    border-radius: 20px;
+    }
+
+  .ellipse 
+    {
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(110deg, #000000, #5a008f);
+    border-radius: 50%;
+    z-index: -1;
+    }
